@@ -13,6 +13,8 @@ body {
     height: 100vh;
     font-family: "Figtree", sans-serif;
     font-size: 16px;
+    line-height: 1.4;
+    font-weight: 500;
 }
 
 .blog-card {
@@ -25,7 +27,7 @@ body {
     flex-direction: column;
     gap: 24px;
     border: 1px solid hsl(0, 0%, 7%);
-    box-shadow: 10px 10px;
+    box-shadow: 8px 8px;
 }
 .blog-image {
     border-radius: 10px;
@@ -43,8 +45,17 @@ body {
     background-color: hsl(47, 88%, 63%);
     font-weight: 800;
     border-radius: 4px;
-    justify-self: flex-start;
     align-self: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 82px;
+    height: 29px;
+    font-size: 14px;
+}
+
+.blog-pub-date {
+    font-size: 14px;
 }
 
 .card-content h2 {
@@ -59,7 +70,8 @@ body {
 footer {
     display: flex;
     gap: 12px;
-
+    align-items: center;
+    font-size: 14px;
 }
 footer img {
     width: 32px;
